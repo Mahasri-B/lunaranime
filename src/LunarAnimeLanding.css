@@ -1,0 +1,135 @@
+.landing-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #e94560;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffffcc;
+  margin-bottom: 0.25rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #ffffffaa;
+}
+
+.overview {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.overview h2 {
+  font-size: 2rem;
+  color: #e94560;
+  margin-bottom: 0.5rem;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.feature-block {
+  background-color: #0f3460;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  flex: 1 1 28%;
+  box-shadow: 0 4px 8px rgba(233, 69, 96, 0.3);
+}
+
+.feature-block h3,
+.feature-block h4 {
+  color: #e94560;
+  margin-bottom: 0.5rem;
+}
+
+.feature-block p {
+  color: #d1d1d1;
+  font-size: 0.95rem;
+}
+
+.features-overview {
+  margin-bottom: 3rem;
+}
+
+.features-overview h2 {
+  color: #e94560;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.feature-category {
+  background-color: #0f3460;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(233, 69, 96, 0.3);
+}
+
+.feature-category h3 {
+  color: #e94560;
+  margin-bottom: 0.75rem;
+}
+
+.feature-category ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #d1d1d1;
+  font-size: 0.95rem;
+}
+
+.why-choose {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.why-choose h2 {
+  color: #e94560;
+  margin-bottom: 0.5rem;
+}
+
+.why-choose p {
+  color: #d1d1d1;
+  font-size: 1.1rem;
+  margin: 0.25rem 0;
+}
+
+.start-watching {
+  text-align: center;
+  background-color: #e94560;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(233, 69, 96, 0.7);
+}
+
+.start-watching h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.start-watching p {
+  font-size: 1.2rem;
+}
